@@ -1,0 +1,16 @@
+<style>
+  body { font-family:Open Sans, "Helvetica Neue", Helvetica, sans-serif;width:1000px;margin:0 auto; }
+h2 a { color: inherit; text-decoration: inherit; display: block; }
+h2 a:hover { background: #f0f0f0; }
+  .header {height:90px;}  .text {position:absolute;left:0;}
+  .photos { position:absolute;right:0;padding-top:5px;}
+  .content{position:relative;}
+  .column{width:470px;}
+  .subtitle{color:gray;font-size:.8em;}
+  .docname{ color: #7CCBAC; display:inline-block; padding-top:25px; height:30px; vertical-align:top;}
+  .nav{ display:inline-block; font-size:.8em;float:right;position:relative;top:-1em;}
+  .badges{list-style-type: none;margin-left:-20px;}
+  .badges li {display:inline;}
+  .note{font-style:italic;}
+  ol li p img{float:left;}
+</style>
