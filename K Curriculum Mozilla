@@ -1,0 +1,133 @@
+<!DOCTYPE html><!-- ======================================================================
+Welcome to the Webmaker Activity Template!
+
+Use this template to create activities and resources for your goals. Use a new template for each activity. Haven't thought about your goals? Try this template: 
+
+This page requires a unique blend of HTML agility, CSS wizardry and mental firepower. There are people who are on the web, and then there are people who MAKE the web. Your goal in this project is to MAKE your very own Webmaker activity page. Add images, links and content to this page to create your very own activity page and help others teach the web.
+============================================================================ --><!--
+Let's get started.
+
+1) READ THROUGH THE COMMENTS. This is a comment. Everything inside of this tag for HTML or '/*' for CSS, is not processed as code, but instead is just text comments about the code. For this project, the comments will give you instructions, hints and guides to completing the project, so skim down through the comments to get an understanding of what you are being asked to do.
+
+2) GET ORIENTED IN THE CODE. HTML is made up of tags that look like this <p> </p>. The tags tell you something about the information contained between them. Click on the tags in the code on this side of the editor to get a description of what each tag is for.
+--><html><head><meta charset="utf-8">
+<title>Coding in Kindergarten Activity Part 1<title>
+ 
+ <!--/* 
+Everything contained within this <style> tag is called CSS and it is used to define the presentational components of the page, like fonts, colors, containers, positioning, etc. Remember that in CSS, comments are enclosed in '/*'. You can edit this CSS.
+*/-->
+ 
+  
+
+  
+  <!--
+Now share a few things about yourself such as things that you love to do, want to make or links from projects that you have already worked on. The <ul> tag is used for bulleted, or unordered lists (versus <ol> for ordered lists). Each <li> tag is a separate list item, or bullet. You can change the text between each <li> tag. You can even try making this an ordered list (Hint: <ol> instead of <ul> and remember to close the tag!)
+
+You can also link out to projects you've done or sites you love by using the <a> tag which is used for hyperlinks. The <a> tag has a very important attribute: href, which defines the URL you want to point to. The text you put between the open <a> tag and the close </a> tag will hyperlink the text that shows up on the page, linking to the URL you specify. Try it out!
+--> 
+  
+</head><body><div class="header">
+  <!--Replace the Webmaker logo and link with your logo and home page.-->
+<p>
+  <img height="64" src="https://webmaker.org/media/img/header_logo.png" width="218">
+  
+  <img src="http://i.imgur.com/fZqjmHw.png"><span class="docname">"Kindergarteners Becoming Coders"</span>
+  <!--
+  You can link to overall learning objectives, related activities or extra resources here. Just replace or remove the links to fit with the activity you are creating.
+	-->
+<span class="nav">
+      <a href="index_goggles.html">Create learning objectives</a>
+      <a href="http://hivenyc.org/hacktivityGrid.html">make it accessible</a>
+      </span>
+</p>
+
+    
+  <hr>
+  
+  <!--
+You can change the text within the different <h> tags. <h1> is used for headings - the "h" stands for header and the "1" stands for most important (versus h2, h3, etc.). Try different headlines for your activity.
+-->
+
+</div>
+<div class="content">
+<div class="text column">
+<h2><a>Starting to Code in Kindergarten
+  <br>
+  <span class="subtitle">Learning Programming Logic</span></a></h2>
+<a href="http://imgur.com/h0qS4Bv"><img src="http://i.imgur.com/h0qS4Bv.png?1"></a>
+	<!--For example, is this an introductory activity? A game? A tutorial? A project? A practical activity? Giving a brief description of the type of activity will help others quickly understand what this resource is.-->
+    <h3>The Big Picture: Getting to Know Code</h3>
+
+  	<!--Give 2 to 3 sentences about what the activity is and what learners will do.-->
+    <p>Students will explore and learn what code can look like, how to create physical coding blocks, and how to use them to creat their own basic programs. <br>
+    </p>
+
+
+  <h3>Steps:</h3>
+ <ol>
+   <li> <!-- 
+     Explain each step of the activity so that others can repeat it in their learning situations. Replace the example text and find images that help you explain your steps!-->
+     <p>An introductory activity gets the blood pumping, forms connections between learners, and introduces a topic. There are thousands of different ways to introduce a topic and get learners interacting with each other. Choose one and hack it to be your own!</p>
+    </li>
+    <li>
+      <p>A good second activity is one that gives pointed instruction to participants on tools or procedures. An example would be allowing the participants to get used to the interface of Thimble or Popcorn by having them make projects. Before learners can practically apply new skills, they need to be comfortable with the tools they'll be using and have a basic understanding of the skills they'll be sharpening.</p>
+    </li>
+    <li>
+      <p>A practical, project based activity allows learners to delve deeper into the essential questions of your session. Go back to thinking of the results: what will your learners MAKE when they are done? What research do they need to do? What text, images, videos, sound clips do they need to gather? </p>
+    </li>
+    <li>
+      <p>Make sure and find or create any resources your learners might need on creating content. Create a project that gives learners enough time to explore and tinker while working towards the completion of the activity.</p>
+    </li>
+  </ol>
+
+  <h3>Materials:</h3>
+<ul>
+  <li><em>What is needed to run this activity?</em></li>
+	<li><em>What other resources or links are helpful for mentors?</em></li>
+
+  </ul>
+  <h3>Discussion:</h3>
+  <li><em>List your questions here! </em></li>
+  <p>What are the essential questions your learners should be able to discuss and reflect upon after this activity?
+ </p>
+  <br>
+  <hr>
+
+  <p class="note">Note: The purpose of this exercise is to create an activity that you can share with other Mozilla Webmaker Mentors. </p>
+
+</div>
+<div class="photos column">
+  <img src="http://hivenyc.org/images/activitytemplate_image.png" width="388">
+  <p>Feel free to explain your image here!</p>
+  <hr>
+  <h3>Code World Badges:</h3>
+  <em>Here are the badges that go with this activity!</em>
+   <ul class="badges">
+    <li><img height="106" src="https://wiki.mozilla.org/images/1/14/Builder.png" width="106"></li>
+       <li><img src="http://i.imgur.com/DPXqYy4.png" width="106"></li> 
+  </ul>
+  <p>Badges to be UnLocked: Explorer, Creator, Designer, Mentor</p>
+  <hr>
+<h3>Related Activities</h3>
+   <p><em>Are there other activities that relate to this activity? Link to them here!</em>
+  </p>
+  <a href="http://www.hivenyc.org/GogglesPrototype/ib_robotdance_goggles.html"><img height="120" src="http://www.hivenyc.org/GogglesPrototype/static/ib_goggles/step02_dancecardRobot.png" width=""></a>
+  <img height="120" src="http://i.imgur.com/fZqjmHw.png"> 
+  <a href="http://www.hivenyc.org/GogglesPrototype/su_hacktheweb_goggles.html"><img height="120" src="http://www.hivenyc.org/GogglesPrototype/static/su_goggles/step01_installGoggles.png" width=""></a>
+  
+  <hr>
+  
+<h3>Related Projects</h3>
+ <p><em>Are there projects that relate to this activity? Link to them here!</em>
+  </p>
+  <a href="https://www.webmaker.org/en-US/projects/remix-your-favorite-webpage/"><img src="https://www.webmaker.org/media/partner_media/projects/goggles.poster.png" width="424"></a>
+  
+  <h3>More Resources</h3>
+  <p>Add any additional thoughts, quotes or inspirations here...</p>
+
+  </div>
+</div>
+
+</body></html><!-- 
+Congrats on completing your activity! You can still go back and change things - that's the beauty of the Web. You might have missed it, but you actually learned some stuff in this project. You now know how to do comments in HTML and CSS, manipulate some CSS, work with headers (the <h1> tag), use lists (<ul> and <ol>) and bullets (<li>), add hyperlinks to text (<a> tag) and even a little about open educational resources. Way to go, Webmaker!
+-->
